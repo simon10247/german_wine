@@ -11,7 +11,7 @@ execute if dimension minecraft:overworld run function german_wine:grape_vine/pla
 execute unless dimension minecraft:overworld run function german_wine:grape_vine/planting/structure_zero
 
 #Teleport Vine to Marker
-function german_wine:grape_vine/planting/set_position with storage german_wine vine_height
+function german_wine:grape_vine/planting/set_position with storage german_wine vine
 
 #Uncompress Vine Structure
 execute as @e[tag=gw_vine_planting] as @s[tag=gw_vine_top] at @s run tp @s ~ ~1 ~
