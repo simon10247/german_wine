@@ -1,0 +1,1 @@
+$give @s poisonous_potato[item_name='"Riesling Grape"',lore=['{"color":"gray","text":"$(oechsle)° Oe"}'],rarity="common",custom_model_data=1020002,custom_data={gw_riesling:1b,gw_riesling_grape:1b,gw_grape:1b},food={nutrition:2,saturation:0.4}] 1

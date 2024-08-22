@@ -1,0 +1,10 @@
+{
+	"values":
+	[
+		"#minecraft:fences",
+		"minecraft:iron_bars",
+		"minecraft:chain",
+		"minecraft:end_rod",
+		"minecraft:lightning_rod"
+	]
+}

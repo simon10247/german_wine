@@ -1,0 +1,45 @@
+'[
+{"color":"white","italic":false,"text":"Oechsle: "},
+{"color":"gray","italic":false,"text":"152"},
+{"color":"gray","italic":false,"text":"° Oe"}
+]'
+,
+'[
+{"color":"white","italic":false,"text":"Age: "},
+{"color":"gray","italic":false,"text":"30"},
+{"color":"gray","text":" Days"}
+]'
+.
+'[
+{"color":"white","italic":false,"text":"Verity: "},
+{"color":"gray","italic":false,"text":"Riesling"}
+]'
+
+
+#Informations:
+
+Iron
+1:  Oechsle                 -> ° Oe
+2:  Ripeness                -> Word                 (Growing, Inflorecence, Unripe, Color Changing, Ripe, Overripe, Noble Rot)
+3:  Rotting                 -> Word (after x%)      (Slightly Rotten, Rotting, Rotten)
+4:  Disease                 -> Word                 (Healthy, Infected)
+
+Diamond:
+1:  Oechsle                 -> ° Oe
+2:  Quality                 -> Word                 (Not as Abbreviation: Wein, Qualitätswein, Prädikatswein Edelsüß)
+3:  Verity                  -> Word                 (e.g.: Riesling, Pinot Noir)
+4:  Age                     -> Days
+5:  Ripeness                -> Word                 (Growing, Inflorecence, Unripe, Color Changing, Ripe, Overripe, Noble Rot)
+6:  Ripening Progression    -> %
+7:  Rotting                 -> %
+8:  Disease                 -> Word and %           (Noble Rot, Sour Rot)
+
+Netherite:
+1:  Oechsle                 -> ° Oe
+2:  Quality                 -> Word                 (Not as Abbreviation: TW, LW, QW, K, S, A, BA, TBA, E)
+3:  Verity                  -> Word                 (e.g.: Riesling, Pinot Noir)
+4:  Age                     -> Days
+5:  Ripeness                -> Word                 (Growing, Inflorecence, Unripe, Color Changing, Ripe, Overripe, Noble Rot)
+6:  Ripening Progression    -> %
+7:  Rotting                 -> %
+8:  Disease                 -> Word and %           (Noble Rot, Sour Rot)
