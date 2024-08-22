@@ -15,17 +15,3 @@ scoreboard players set #gw_nummber_1 gw_nummber 1
 function german_wine:tick_10t
 function german_wine:tick_20t
 function german_wine:tick_15s
-
-#Handeling Storage for Macros
-data modify storage german_wine vine_hight set value {hight:0}
-
-    #Handeling Storage for Macros for Recraftometer Lore
-data modify storage german_wine vine_oechsle set value {oechsle:0}
-data modify storage german_wine vine_quality set value {quality:0}
-data modify storage german_wine vine_verity set value {verity:0}
-data modify storage german_wine vine_age set value {age:0}
-data modify storage german_wine vine_ripeness set value {ripeness:0}
-data modify storage german_wine vine_ripening_progression set value {ripening_progression:0}
-data modify storage german_wine vine_rotting set value {rotting:0}
-data modify storage german_wine vine_disease set value {disease:0}
-data modify storage german_wine vine_disease_progression set value {disease_progression:0}

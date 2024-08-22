@@ -10,5 +10,5 @@ execute if biome ~ ~ ~ the_void run fill ~ -64 ~ ~ -64 ~1 air
 execute unless biome ~ ~ ~ the_void run fill ~ -64 ~ ~ -64 ~1 bedrock
 
 #Calculate Blocks to move Vine up, to be at Marker position, and Store result
-execute store result storage minecraft:german_wine vine_hight.hight int 1 run scoreboard players operation #gw_nummber_vine_hight gw_nummber -= #gw_nummber_-64 gw_nummber
+execute store result storage minecraft:german_wine vine_height.height int 1 run scoreboard players operation #gw_nummber_vine_height gw_nummber -= #gw_nummber_-64 gw_nummber
 

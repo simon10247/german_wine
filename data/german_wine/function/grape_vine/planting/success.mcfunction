@@ -4,14 +4,14 @@ say [debug] grape_vine/planting/success
 tag @s add gw_planted
 
 #Store position of Vine
-execute store result score #gw_nummber_vine_hight gw_nummber run data get entity @s Pos.[1] 1
+execute store result score #gw_nummber_vine_height gw_nummber run data get entity @s Pos.[1] 1
 
 #Check if Vine was placed in the overworld or not
 execute if dimension minecraft:overworld run function german_wine:grape_vine/planting/structure_sixtyfour
 execute unless dimension minecraft:overworld run function german_wine:grape_vine/planting/structure_zero
 
 #Teleport Vine to Marker
-function german_wine:grape_vine/planting/set_position with storage german_wine vine_hight
+function german_wine:grape_vine/planting/set_position with storage german_wine vine_height
 
 #Uncompress Vine Structure
 execute as @e[tag=gw_vine_planting] as @s[tag=gw_vine_top] at @s run tp @s ~ ~1 ~
