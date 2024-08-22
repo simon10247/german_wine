@@ -11,10 +11,10 @@ data modify storage minecraft:german_wine refractometer.oechsle set value "152"
 data modify storage minecraft:german_wine refractometer.quality set value "Trockenbeerenauslese"
 data modify storage minecraft:german_wine refractometer.verity set value "Riesling"
 #age
-data modify storage minecraft:german_wine refractometer.ripeness set value "Nobel Rot"
+data modify storage minecraft:german_wine refractometer.ripeness set value "Noble Rot"
 data modify storage minecraft:german_wine refractometer.ripening_progression set value "85"
 data modify storage minecraft:german_wine refractometer.rotting set value "55"
-data modify storage minecraft:german_wine refractometer.disease set value "Nobel Rot"
+data modify storage minecraft:german_wine refractometer.disease set value "Noble Rot"
 data modify storage minecraft:german_wine refractometer.disease_progression set value "100"
 #!Placeholder Values ]
 
@@ -22,4 +22,4 @@ data modify storage minecraft:german_wine refractometer.disease_progression set 
 execute as @p[tag=interaction_click] run function german_wine:grape_vine/progression/write_lore with storage minecraft:german_wine refractometer
 
 #Depleating Duritility
-execute as @p[tag=interaction_click,gamemode=!creative] at @s run function german_wine:durability_editing/evaluating_enchantment
+execute as @p[tag=interaction_click,gamemode=!creative,predicate=german_wine:unbreaking_evaluation] at @s run function german_wine:durability_editing/durability_depleation
