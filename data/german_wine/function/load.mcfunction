@@ -5,11 +5,10 @@ scoreboard objectives add gw_vine_age dummy
 scoreboard objectives add gw_vine_sub_counter dummy
 scoreboard objectives add gw_warped_right_click minecraft.used:minecraft.warped_fungus_on_a_stick
 
-    #Scoreboard Variables for Culculation
-scoreboard objectives add gw_nummber dummy
-scoreboard players set #gw_nummber_-64 gw_nummber -64
-scoreboard players set #gw_nummber_0 gw_nummber 0
-scoreboard players set #gw_nummber_1 gw_nummber 1
+    #Scoreboard Variables for Calculation
+scoreboard objectives add gw_number dummy
+scoreboard players set #gw_number_-64 gw_number -64
+scoreboard players set #gw_number_0 gw_number 0
 
 #Kick-start tick functions
 function german_wine:tick_10t

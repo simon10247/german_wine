@@ -4,7 +4,7 @@ say [debug] grape_vine/planting/success
 tag @s add gw_planted
 
 #Store position of Vine
-execute store result score #gw_nummber_vine_height gw_nummber run data get entity @s Pos.[1] 1
+execute store result score #gw_number_vine_height gw_number run data get entity @s Pos.[1] 1
 
 #Check if Vine was placed in the overworld or not
 execute if dimension minecraft:overworld run function german_wine:grape_vine/planting/structure_sixtyfour

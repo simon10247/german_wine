@@ -10,4 +10,4 @@ execute if dimension minecraft:the_end run fill ~ -64 ~ ~ -64 ~1 air
 execute unless dimension minecraft:the_end run fill ~ -64 ~ ~ -64 ~1 bedrock
 
 #Calculate Blocks to move Vine up, to be at Marker position, and Store result
-execute store result storage minecraft:german_wine vine.height int 1 run scoreboard players operation #gw_nummber_vine_height gw_nummber -= #gw_nummber_0 gw_nummber
+execute store result storage simon102:german_wine vine.height int 1 run scoreboard players operation #gw_number_vine_height gw_number -= #gw_number_0 gw_number

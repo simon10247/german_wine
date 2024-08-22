@@ -5,21 +5,21 @@ playsound minecraft:block.pointed_dripstone.drip_water_into_cauldron player @a ~
 playsound minecraft:block.amethyst_block.fall player @a ~ ~ ~ 1 2
 
 #Get Vine Days and Store
-execute store result storage minecraft:german_wine refractometer.age int 1 run scoreboard players get @s gw_vine_age
+execute store result storage simon102:german_wine refractometer.age int 1 run scoreboard players get @s gw_vine_age
 #!Placeholder Values [
-data modify storage minecraft:german_wine refractometer.oechsle set value "152"
-data modify storage minecraft:german_wine refractometer.quality set value "Trockenbeerenauslese"
-data modify storage minecraft:german_wine refractometer.verity set value "Riesling"
+data modify storage simon102:german_wine refractometer.oechsle set value "152"
+data modify storage simon102:german_wine refractometer.quality set value "Trockenbeerenauslese"
+data modify storage simon102:german_wine refractometer.verity set value "Riesling"
 #age
-data modify storage minecraft:german_wine refractometer.ripeness set value "Noble Rot"
-data modify storage minecraft:german_wine refractometer.ripening_progression set value "85"
-data modify storage minecraft:german_wine refractometer.rotting set value "55"
-data modify storage minecraft:german_wine refractometer.disease set value "Noble Rot"
-data modify storage minecraft:german_wine refractometer.disease_progression set value "100"
+data modify storage simon102:german_wine refractometer.ripeness set value "Noble Rot"
+data modify storage simon102:german_wine refractometer.ripening_progression set value "85"
+data modify storage simon102:german_wine refractometer.rotting set value "55"
+data modify storage simon102:german_wine refractometer.disease set value "Noble Rot"
+data modify storage simon102:german_wine refractometer.disease_progression set value "100"
 #!Placeholder Values ]
 
 #Run Function with Stored Days
-execute as @p[tag=interaction_click] run function german_wine:grape_vine/progression/write_lore with storage minecraft:german_wine refractometer
+execute as @p[tag=interaction_click] run function german_wine:grape_vine/progression/write_lore with storage simon102:german_wine refractometer
 
 #Depleating Duritility
 execute as @p[tag=interaction_click,gamemode=!creative,predicate=german_wine:unbreaking_evaluation] at @s run function german_wine:durability_editing/durability_depleation

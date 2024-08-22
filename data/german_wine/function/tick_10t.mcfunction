@@ -1,6 +1,5 @@
 #Run functions
 execute as @e[type=marker,tag=gw_grape_sapling] at @s run function german_wine:grape_vine/planting/detection
-function german_wine:grape_vine/interacting/detection
 
 #Reset Refractometer Lore
 execute as @a[scores={gw_warped_right_click=1..}] run function german_wine:grape_vine/progression/reset_lore
