@@ -4,6 +4,7 @@ scoreboard objectives add gw_enchantment_evaluation dummy
 scoreboard objectives add gw_vine_age dummy
 scoreboard objectives add gw_vine_sub_counter dummy
 scoreboard objectives add gw_warped_right_click minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add gw_debug_message dummy
 
     #Scoreboard Variables for Calculation
 scoreboard objectives add gw_number dummy
