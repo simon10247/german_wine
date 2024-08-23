@@ -18,7 +18,7 @@ execute as @e[tag=gw_vine_planting] as @s[tag=gw_vine_top] at @s run tp @s ~ ~1 
 execute as @e[tag=gw_vine_planting] run data merge entity @s[type=minecraft:interaction,tag=gw_vine_interaction] {height:2f}
 
 #Fix Position
-execute as @e[tag=gw_vine_planting] at @s[tag=gw_vine_bottom] if block ~ ~-1 ~ #german_wine:grape_vine_stem_pos_fix as @e[tag=gw_vine_planting] at @s run tp @s ~ ~-1 ~  
+execute as @e[tag=gw_vine_planting] at @s[tag=gw_vine_bottom] if block ~ ~-1 ~ #german_wine:grape_vine_stem_pos_fix as @e[tag=gw_vine_planting] at @s run tp @s ~ ~-1 ~
 
 #Playsound
 playsound minecraft:item.crop.plant block @a ~ ~ ~
