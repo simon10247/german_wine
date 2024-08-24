@@ -1,4 +1,4 @@
-say [debug] grape_vine/progression/write_lore
+execute if score #debug_bool gw_debug_message matches 1 run function german_wine:debug_message/message {message:"grape_vine/progression/write_lore"}
 
 #Summon Display Entity
 summon item_display ~ ~ ~ {Tags:["gw_write_lore"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0f,0f,0f]}}

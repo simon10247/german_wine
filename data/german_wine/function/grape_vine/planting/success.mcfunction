@@ -1,4 +1,4 @@
-say [debug] grape_vine/planting/success
+execute if score #debug_bool gw_debug_message matches 1 run function german_wine:debug_message/message {message:"grape_vine/planting/success"}
 
 #Tag Vine as planted to prevent failing and droping the item
 tag @s add gw_planted

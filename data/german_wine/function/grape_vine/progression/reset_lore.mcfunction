@@ -1,5 +1,5 @@
-say [debug] grape_vine/progression/reset_lore
-execute unless data entity @s SelectedItem.components.minecraft:custom_data{gw_refractometer:1b} run say [debug] grape_vine/progression/reset_lore (fail)
+execute if score #debug_bool gw_debug_message matches 1 run function german_wine:debug_message/message {message:"grape_vine/progression/reset_lore"}
+execute unless data entity @s SelectedItem.components.minecraft:custom_data{gw_refractometer:1b} run execute if score #debug_bool gw_debug_message matches 1 run function german_wine:debug_message/message {message:"reset_lore (fail!)"}
 
 #Summon Display Entity
 execute if data entity @s SelectedItem.components.minecraft:custom_data{gw_refractometer:1b} run summon item_display ~ ~ ~ {Tags:["gw_reset_lore"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0f,0f,0f]}}

@@ -1,4 +1,4 @@
-say [debug] grape_vine/interacting/harvest
+execute if score #debug_bool gw_debug_message matches 1 run function german_wine:debug_message/message {message:"grape_vine/interacting/harvest"}
 
 #Playsound
 playsound minecraft:entity.sheep.shear block @a ~ ~ ~

@@ -1,4 +1,4 @@
-say [debug] grape_vine/interacting/break
+execute if score #debug_bool gw_debug_message matches 1 run function german_wine:debug_message/message {message:"grape_vine/interacting/break"}
 
 #Playsound
 playsound minecraft:item.shovel.flatten block @a ~ ~ ~

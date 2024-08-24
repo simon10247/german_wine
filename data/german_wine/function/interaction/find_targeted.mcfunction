@@ -1,4 +1,4 @@
-say [debug] interaction/find_targeted
+execute if score #debug_bool gw_debug_message matches 1 run function german_wine:debug_message/message {message:"interaction/find_targeted"}
 
 #Findes Interaction that got clicked
 scoreboard players set #bool interaction_click 0

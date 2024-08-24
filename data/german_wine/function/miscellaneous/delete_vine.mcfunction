@@ -1,4 +1,4 @@
-say [debug] miscellaneous/delete_vine
+execute if score #debug_bool gw_debug_message matches 1 run function german_wine:debug_message/message {message:"miscellaneous/delete_vine"}
 
 #Particle
 particle block{block_state:{Name:oak_leaves}} ~ ~ ~ .1 0.9 .1 0 30 force @a
