@@ -1,4 +1,4 @@
-execute if score #debug_bool gw_debug_message matches 1 run function german_wine:debug_message/message {message:"grape_vine/interacting/drop"}
+function german_wine:debug_message/message {message:"grape_vine/interacting/drop"}
 
 #Drop right Sapling
 execute if entity @s[tag=gw_riesling_vine] run summon item ~ ~ ~ {PickupDelay:20,Motion:[0.0,0.2,0.0],Item:{id:"minecraft:pig_spawn_egg",count:1,components:{"minecraft:item_name":'"Riesling Grape Sapling"',"minecraft:rarity":"common","minecraft:custom_model_data":1020000,"minecraft:custom_data":{gw_grape_sapling:1b,gw_riesling:1b,gw_riesling_sapling:1b},"minecraft:entity_data":{id:"minecraft:marker",Tags:["gw_grape_sapling","gw_riesling_sapling"],CustomName:'"Riesling Sapling"'}}}}

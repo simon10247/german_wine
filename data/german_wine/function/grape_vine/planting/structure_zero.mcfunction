@@ -1,4 +1,4 @@
-execute if score #debug_bool gw_debug_message matches 1 run function german_wine:debug_message/message {message:grape_vine/planting/structure_zero""}
+function german_wine:debug_message/message {message:grape_vine/planting/structure_zero""}
 
 #Set Vine Structure
 execute if entity @s[tag=gw_riesling_sapling] run setblock ~ 0 ~ structure_block[mode=load]{name:"riesling_grape_vine",posX:0,posY:0,posZ:0,rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace

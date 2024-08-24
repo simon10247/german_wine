@@ -1,4 +1,4 @@
-execute if score #debug_bool gw_debug_message matches 1 run function german_wine:debug_message/message {message:"interaction/left_click"}
+function german_wine:debug_message/message {message:"interaction/left_click"}
 
 #Remove advancement that traces the interaction
 advancement revoke @s only german_wine:left_click

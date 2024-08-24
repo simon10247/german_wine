@@ -1,4 +1,4 @@
-execute if score #debug_bool gw_debug_message matches 1 run function german_wine:debug_message/message {message:"durability_editing/durability_depleation"}
+function german_wine:debug_message/message {message:"durability_editing/durability_depleation"}
 
 #Summon Display Entity
 summon item_display ~ ~ ~ {Tags:["gw_durability_depleation"],transformation:{scale:[0f,0f,0f]}}

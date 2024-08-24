@@ -1,4 +1,4 @@
-execute if score #debug_bool gw_debug_message matches 1 run function german_wine:debug_message/message {message:"grape_vine/progression/refractometer"}
+function german_wine:debug_message/message {message:"grape_vine/progression/refractometer"}
 
 #Playsound
 playsound minecraft:block.pointed_dripstone.drip_water_into_cauldron player @a ~ ~ ~ 100 2
