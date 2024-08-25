@@ -1,1 +1,1 @@
-give @s pig_spawn_egg[item_name='"Riesling Grape Sapling"',rarity="common",custom_model_data=1020000,custom_data={gw_grape_sapling:1b,gw_riesling:1b,gw_riesling_sapling:1b},entity_data={id:"minecraft:marker",Tags:["gw_grape_sapling","gw_riesling_sapling"],CustomName:'"Riesling Sapling"'}] 1
+give @s pig_spawn_egg[item_name='"Riesling Grape Sapling"',rarity="common",custom_model_data=1020000,custom_data={gw:{grape_sapling:1b,riesling:1b,riesling_sapling:1b}},entity_data={id:"minecraft:marker",Tags:["grape_sapling","riesling_sapling"],CustomName:'"Riesling Sapling"'}] 1
