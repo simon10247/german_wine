@@ -1,1 +1,1 @@
-#! Wofür? lol
+#! Wofür?
