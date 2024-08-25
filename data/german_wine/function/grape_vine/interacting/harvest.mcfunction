@@ -1,4 +1,5 @@
 function german_wine:debug_message/message {message:"grape_vine/interacting/harvest"}
+#Called by: interaction/item_targeted
 
 #Playsound
 playsound minecraft:entity.sheep.shear block @a ~ ~ ~

@@ -1,4 +1,5 @@
-function german_wine:debug_message/message {message:""interaction/find_attacked}
+function german_wine:debug_message/message {message:"interaction/find_attacked"}
+#Called by: interaction/left_click
 
 #Findes Interaction that got clicked
 scoreboard players set #bool interaction_click 0

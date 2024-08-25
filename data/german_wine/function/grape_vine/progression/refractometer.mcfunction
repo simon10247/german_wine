@@ -1,4 +1,5 @@
 function german_wine:debug_message/message {message:"grape_vine/progression/refractometer"}
+#Called by: interaction/item_targeted
 
 #Playsound
 playsound minecraft:block.pointed_dripstone.drip_water_into_cauldron player @a ~ ~ ~ 100 2

@@ -1,4 +1,5 @@
-say Retaged!
+function german_wine:debug_message/message {message:"dev_tools/retag"}
+#Called by: Player
 
 $tag @e[tag=gw_riesling,distance=..1] add gw_$(x)
 tag @e[tag=gw_riesling,distance=..1] remove gw_riesling

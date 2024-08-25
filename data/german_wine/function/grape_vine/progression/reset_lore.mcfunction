@@ -1,4 +1,5 @@
 function german_wine:debug_message/message {message:"grape_vine/progression/reset_lore"}
+#Called by: tick_10t
 execute unless data entity @s SelectedItem.components.minecraft:custom_data{gw:{refractometer:1b}} run function german_wine:debug_message/message {message:"reset_lore (fail!)"}
 
 #Summon Display Entity

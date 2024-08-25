@@ -1,4 +1,5 @@
 function german_wine:debug_message/message {message:"durability_editing/durability_depleation"}
+#Called by: grape_vine/interacting/break & grape_vine/interacting/harvest & grape_vine/progression/refractometer
 
 #Summon Display Entity
 summon item_display ~ ~ ~ {Tags:["gw_durability_depleation"],transformation:{scale:[0f,0f,0f]}}

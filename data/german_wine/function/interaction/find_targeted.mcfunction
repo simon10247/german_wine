@@ -1,4 +1,5 @@
 function german_wine:debug_message/message {message:"interaction/find_targeted"}
+#Called by: interaction/right_click
 
 #Findes Interaction that got clicked
 scoreboard players set #bool interaction_click 0

@@ -1,3 +1,5 @@
+#Called by: Player or Click Event of Debug Message
+
 #Toogle Message
 scoreboard players add #debug_bool gw_debug_message 1
 execute if score #debug_bool gw_debug_message matches 2 run scoreboard players set #debug_bool gw_debug_message 0

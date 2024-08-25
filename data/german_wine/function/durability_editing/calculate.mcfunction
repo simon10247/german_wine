@@ -1,3 +1,6 @@
+function german_wine:debug_message/message {message:"durability_editing/calculate"}
+#Called by: durability_editing/durability_depleation
+
 #Read Durability
 execute store result score #gw_durability gw_number run data get entity @s item.components.minecraft:damage
 

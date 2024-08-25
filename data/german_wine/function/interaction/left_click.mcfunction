@@ -1,4 +1,5 @@
 function german_wine:debug_message/message {message:"interaction/left_click"}
+#Called by: Advantcment:left_click
 
 #Remove advancement that traces the interaction
 advancement revoke @s only german_wine:left_click

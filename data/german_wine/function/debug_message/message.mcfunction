@@ -1,1 +1,2 @@
+#Called by: every function thats needs a debug message
 $execute if score #debug_bool gw_debug_message matches 1 run tellraw @a ["",{"text":"[","color":"dark_purple"},{"text":"DEBUG","color":"light_purple","clickEvent":{"action":"run_command","value":"/function german_wine:debug_message/toggle"},"hoverEvent":{"action":"show_text","contents":"Click here to Toggle Debug Messages.\n(Or Toggle with:e\"function german_wine:debug_message/toggle\".)"}},{"text":"]","color":"dark_purple"},{"text":" $(message)","color":"aqua"}]

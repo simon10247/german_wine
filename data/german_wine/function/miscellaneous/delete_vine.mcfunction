@@ -1,4 +1,5 @@
 function german_wine:debug_message/message {message:"miscellaneous/delete_vine"}
+#Called by: tick_20t & grape_vine/interacting/break
 
 #Particle
 particle block{block_state:{Name:oak_leaves}} ~ ~ ~ .1 0.9 .1 0 30 force @a

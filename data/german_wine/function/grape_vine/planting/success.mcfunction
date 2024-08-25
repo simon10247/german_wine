@@ -1,4 +1,5 @@
 function german_wine:debug_message/message {message:"grape_vine/planting/success"}
+#Called by: grape_vine/planting/detection
 
 #Tag Vine as planted to prevent failing and droping the item
 tag @s add gw_planted

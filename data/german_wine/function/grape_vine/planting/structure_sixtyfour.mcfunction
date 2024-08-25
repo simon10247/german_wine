@@ -1,4 +1,5 @@
 function german_wine:debug_message/message {message:"grape_vine/planting/structure_sixtyfour"}
+#Called by: grape_vine/planting/success
 
 #Set Vine Structure
 execute if entity @s[tag=gw_riesling_sapling] run setblock ~ -64 ~ structure_block[mode=load]{name:"german_wine:riesling_grape_vine",posX:0,posY:0,posZ:0,rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace
