@@ -43,3 +43,6 @@ Netherite:
 6:  Ripening Progression    -> %
 7:  Rotting                 -> %
 8:  Disease                 -> Word and %           (Noble Rot, Sour Rot)
+
+Add Alkohlol to Netherite Refractometer
+Add Vintage to ref
