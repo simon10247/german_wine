@@ -1,1 +1,1 @@
-$give @s minecraft:knowledge_book[item_name='"Pinot Noir Grape"',lore=['{"color":"gray","text":"$(oechsle)° Oe"}'],rarity="common",custom_model_data=1020004,custom_data={gw:{pinot_noir:1b,pinot_noir_grape:1b,grape:1b}},food={nutrition:2,saturation:0.4},!minecraft:max_damage,minecraft:max_stack_size=64] 1
+$give @s minecraft:poisonous_potato[item_name='"Pinot Noir Grape"',lore=['{"color":"gray","text":"$(oechsle)° Oe"}'],rarity="common",custom_model_data=1020004,custom_data={gw:{pinot_noir:1b,pinot_noir_grape:1b,grape:1b}},food={nutrition:2,saturation:0.4}] 1
