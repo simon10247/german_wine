@@ -1,4 +1,4 @@
-function german_wine:debug_message/message {message:grape_vine/planting/structure_zero""}
+function german_wine:debug_message/message {message:"grape_vine/planting/structure_zero"}
 #Called by: grape_vine/planting/success
 
 #Set Vine Structure
