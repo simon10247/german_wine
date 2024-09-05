@@ -11,7 +11,7 @@ particle block{block_state:{Name:dirt}} ~ ~ ~ .1 .1 .1 0 10 force @a
 execute as @p[tag=interaction_click,gamemode=!creative,predicate=german_wine:unbreaking_evaluation] at @s run function german_wine:durability_editing/durability_depleation
 
 #Drop Item
-function german_wine:grape_vine/planting/fail
+execute if entity @p[tag=interaction_click,gamemode=!creative] run function german_wine:grape_vine/interacting/drop
 
 #Delete Vine
 function german_wine:miscellaneous/delete_vine
