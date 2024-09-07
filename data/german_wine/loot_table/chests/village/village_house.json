@@ -1,0 +1,85 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pig_spawn_egg",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Riesling Grape Sapling\"",
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 1020000,
+                "minecraft:custom_data": {
+                  "gw": {
+                    "grape_sapling":  1,
+                    "riesling": 1,
+                    "riesling_sapling": 1
+                  }
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:marker",
+                  "Tags": [
+                    "gw_grape_sapling",
+                    "gw_riesling_sapling"
+                  ],
+                  "CustomName": "\"Riesling Sapling\""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pig_spawn_egg",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Pinot Noir Grape Sapling\"",
+                "minecraft:rarity": "common",
+                "minecraft:custom_model_data": 1020001,
+                "minecraft:custom_data": {
+                  "gw": {
+                    "grape_sapling":  1,
+                    "pinot_noir": 1,
+                    "pinot_noir_sapling": 1
+                  }
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:marker",
+                  "Tags": [
+                    "gw_grape_sapling",
+                    "gw_pinot_noir_sapling"
+                  ],
+                  "CustomName": "\"Pinot Noir Sapling\""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
