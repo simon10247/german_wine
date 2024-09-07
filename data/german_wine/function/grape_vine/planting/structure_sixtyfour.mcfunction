@@ -2,8 +2,8 @@ function german_wine:debug_message/message {message:"grape_vine/planting/structu
 #Called by: grape_vine/planting/success
 
 #Set Vine Structure
-execute if entity @s[tag=gw_riesling_sapling] run setblock ~ -64 ~ structure_block[mode=load]{name:"german_wine:riesling_grape_vine",posX:0,posY:0,posZ:0,rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace
-execute if entity @s[tag=gw_pinot_noir_sapling] run setblock ~ -64 ~ structure_block[mode=load]{name:"german_wine:pinot_noir_grape_vine",posX:0,posY:0,posZ:0,rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace
+execute if entity @s[tag=gw_riesling_sapling] run setblock ~ -64 ~ structure_block[mode=load]{name:"german_wine:grape_vines/riesling_grape_vine",posX:0,posY:0,posZ:0,rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace
+execute if entity @s[tag=gw_pinot_noir_sapling] run setblock ~ -64 ~ structure_block[mode=load]{name:"german_wine:grape_vines/pinot_noir_grape_vine",posX:0,posY:0,posZ:0,rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace
 setblock ~ -64 ~1 redstone_block
 
 #If World bottom is Void, replace Structure Block with air, else with Bedrock
