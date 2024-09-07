@@ -118,7 +118,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "german_wine:chests/village/village_house",
+          "value": "german_wine:village_house/grape_saplings",
           "weight": 5
         }
       ],
