@@ -4,7 +4,8 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
-          "type": "interaction"
+          "type": "interaction",
+          "nbt": "{Tags:[\"gw_vine_interaction\"]}"
         }
       }
     }
