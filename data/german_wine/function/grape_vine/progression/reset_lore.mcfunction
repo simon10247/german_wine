@@ -9,7 +9,7 @@ execute if data entity @s SelectedItem.components.minecraft:custom_data{gw:{refr
 item replace entity @n[type=item_display,tag=gw_reset_lore] container.0 from entity @s weapon.mainhand
 
 #Reset Lore
-execute as @n[type=item_display,tag=gw_reset_lore] run data modify entity @s item.components.minecraft:lore[] set value ""
+execute as @n[type=item_display,tag=gw_reset_lore] run data modify entity @s item.components.minecraft:lore set value []
 
 #Clone Display Entity Item to Player
 item replace entity @s weapon.mainhand from entity @n[type=item_display,tag=gw_reset_lore] container.0
