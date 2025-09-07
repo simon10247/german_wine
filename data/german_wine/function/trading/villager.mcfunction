@@ -5,7 +5,7 @@ function german_wine:debug_message/message {message:"trading/villager"}
 tag @s add gw_modified_trade
 
 #Generate Random Oechsle Value
-execute store result storage simon102:german_wine trade.oechsle int 1 run random value 55..85
+execute store result storage simon102:german_wine trade.oechsle int 1 run random value 50..85
 
 #Modify Trade
 execute store result storage simon102:german_wine trade.insertion int 1 run random value 4..5
