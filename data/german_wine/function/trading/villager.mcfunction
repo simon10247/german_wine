@@ -1,5 +1,5 @@
 function german_wine:debug_message/message {message:"trading/villager"}
-#Called by: check_farmer
+#Called by: tick_20t
 
 #Tag Villager
 tag @s add gw_modified_trade
