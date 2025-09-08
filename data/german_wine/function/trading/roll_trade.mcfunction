@@ -28,3 +28,6 @@ execute if score #random gw_trade matches 41 run tag @s[tag=!got_trade5] add tra
 $data modify entity @s[tag=trade5] Offers.Recipes[$(insertion)] set value {maxUses:1,buy:{id:"minecraft:emerald",count:6},sell:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:max_damage":250,"minecraft:item_name":"Refractometer","minecraft:rarity":"common","item_model":"german_wine:refractometer","minecraft:custom_data":{gw:{refractometer:1b,iron_refractometer:1b,damage_tool:{particle:{id:"minecraft:iron_chestplate"}}}}}}}
 tag @s[tag=trade5] add got_trade5
 tag @s remove trade5
+
+#! Testing
+$say Trade was inserted at position: $(insertion)
