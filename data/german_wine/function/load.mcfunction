@@ -1,10 +1,12 @@
+function german_wine:debug_message/message {message:"RELOADED!"}
+#Called by: Reload or Load
+
 #Scoreboard Stuff
 scoreboard objectives add interaction_click dummy
 scoreboard objectives add gw_vine_age dummy
 scoreboard objectives add gw_vine_sub_counter dummy
 scoreboard objectives add gw_warped_right_click minecraft.used:minecraft.warped_fungus_on_a_stick
-scoreboard objectives add gw_debug_message_global dummy
-scoreboard objectives add gw_debug_message_personal dummy
+scoreboard objectives add gw_debug_message dummy
 scoreboard objectives add gw_trade dummy
 
     #Scoreboard Variables for Calculation
