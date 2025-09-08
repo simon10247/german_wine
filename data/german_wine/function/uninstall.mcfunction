@@ -11,7 +11,6 @@ scoreboard objectives remove interaction_click
 scoreboard objectives remove gw_vine_age
 scoreboard objectives remove gw_vine_sub_counter
 scoreboard objectives remove gw_warped_right_click
-scoreboard objectives remove gw_debug_message_global
-scoreboard objectives remove gw_debug_message_personal
+scoreboard objectives remove gw_debug_message
 scoreboard objectives remove gw_trade
 scoreboard objectives remove gw_number
