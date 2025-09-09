@@ -1,1 +1,1 @@
-$give @s minecraft:poisonous_potato[item_name="Riesling Grape",lore=[{"color":"gray","text":"$(oechsle)° Oe"}],rarity="common",item_model="german_wine:white_grape",custom_data={gw:{riesling:1b,riesling_grape:1b,grape:1b}},food={nutrition:2,saturation:0.4}] 1
+$give @s minecraft:poisonous_potato[item_name="Riesling Grape",lore=[{"color":"gray","text":"$(oechsle)° Oe"}],rarity="common",item_model="german_wine:white_grape",custom_data={gw:{riesling:1b,riesling_grape:1b,grape:1b}},food={nutrition:2,saturation:0.4},consumable={}] 1
