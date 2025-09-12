@@ -1,4 +1,4 @@
-function german_wine:debug_message/message {message:"trading/wandering_trader/grapes"}
+function german_wine:debug_message/message {message:"trading/wandering_trader/trades/grapes"}
 #Called by: trading/roll_trade
 
 # Roll nummber

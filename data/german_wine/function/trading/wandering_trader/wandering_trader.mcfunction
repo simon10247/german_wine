@@ -1,4 +1,4 @@
-function german_wine:debug_message/message {message:"trading/wandering_trader"}
+function german_wine:debug_message/message {message:"trading/wandering_trader/wandering_trader"}
 #Called by: tick_20
 
 #Tag Villager
@@ -9,6 +9,6 @@ execute store result storage simon102:german_wine trade.oechsle int 1 run random
 
 #Modify Trade
 execute store result storage simon102:german_wine trade.insertion int 1 run random value 2..8
-execute if predicate german_wine:chance/85 as @s run function german_wine:trading/roll_trade
+execute if predicate german_wine:chance/85 as @s run function german_wine:trading/wandering_trader/roll_trade
 execute store result storage simon102:german_wine trade.insertion int 1 run random value 2..8
-execute if predicate german_wine:chance/50 as @s run function german_wine:trading/roll_trade
+execute if predicate german_wine:chance/50 as @s run function german_wine:trading/wandering_trader/roll_trade

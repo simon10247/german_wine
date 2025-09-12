@@ -1,4 +1,4 @@
-function german_wine:debug_message/message {message:"trading/wandering_trader/refractometer"}
+function german_wine:debug_message/message {message:"trading/wandering_trader/trades/refractometer"}
 #Called by: trading/roll_trade
 
 # Roll nummber
