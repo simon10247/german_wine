@@ -305,7 +305,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "german_wine:village/savanna/houses/savanna_small_farm_gw",
+        "location": "german_wine:village/savanna/houses/savanna_large_farm_gw",
         "processors": "minecraft:farm_savanna",
         "projection": "rigid"
       },
