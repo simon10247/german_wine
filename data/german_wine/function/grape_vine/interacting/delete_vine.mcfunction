@@ -1,4 +1,4 @@
-function german_wine:debug_message/message {message:"miscellaneous/delete_vine"}
+function german_wine:debug_message/message {message:"grape_vine/interacting/delete_vine"}
 #Called by: tick_20t & grape_vine/interacting/break
 
 #Particle

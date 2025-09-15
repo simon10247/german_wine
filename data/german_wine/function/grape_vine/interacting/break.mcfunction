@@ -14,4 +14,4 @@ execute as @p[tag=interaction_click,gamemode=!creative,predicate=german_wine:unb
 execute if entity @p[tag=interaction_click,gamemode=!creative] run function german_wine:grape_vine/interacting/drop
 
 #Delete Vine
-function german_wine:miscellaneous/delete_vine
+function german_wine:grape_vine/interacting/delete_vine
