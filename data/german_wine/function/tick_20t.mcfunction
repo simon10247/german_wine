@@ -8,5 +8,8 @@ execute at @a as @e[type=wandering_trader,tag=!gw_modified_trade,distance=..20] 
 #Check for Farming Villager and modifie Trades
 execute at @a as @e[type=villager,tag=!gw_modified_trade,distance=..20] if predicate german_wine:is_farmer_level_3 run function german_wine:trading/villager/villager
 
+#Check for Village Farms and Generate/Spawn Vines
+execute as @e[type=marker,tag=gw_vine_village_farm] at @s unless entity @e[type=marker,tag=gw_vine_village_farm_inhibitor,distance=..30] run function german_wine:structures/village/farm/generate_random_vines
+
 #Loop
 schedule function german_wine:tick_20t 20t
