@@ -115,11 +115,6 @@
           ],
           "name": "minecraft:oak_sapling",
           "weight": 5
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "german_wine:village_house/grape_saplings",
-          "weight": 5
         }
       ],
       "rolls": {
