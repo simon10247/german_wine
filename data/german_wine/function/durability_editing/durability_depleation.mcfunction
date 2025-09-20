@@ -2,7 +2,7 @@ function german_wine:debug_message/message {message:"durability_editing/durabili
 #Called by: grape_vine/interacting/break & grape_vine/interacting/harvest & grape_vine/progression/refractometer
 
 #Summon Display Entity
-summon item_display ~ ~ ~ {Tags:["gw_durability_depleation"],transformation:{scale:[0f,0f,0f]}}
+summon item_display ~ ~ ~ {Tags:["gw_durability_depleation"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0f,0f,0f]}}
 
 #Clone Selected Item to Display Entity
 item replace entity @n[type=item_display,tag=gw_durability_depleation] container.0 from entity @s weapon.mainhand

@@ -2,7 +2,7 @@ function german_wine:debug_message/message {message:"durability_editing/break_to
 #Called by: durability_editing/calculate
 
 #Remove Item form Display Entity
-data merge entity @s {item:{id:"minecraft:air"}}
+data remove entity @s item
 
 #Play Tool Break sound
 playsound entity.item.break player @a ~ ~ ~
