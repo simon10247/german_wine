@@ -1,1 +1,1 @@
-give @s warped_fungus_on_a_stick[max_damage=1561,item_name="Diamond Refractometer",rarity="common",item_model="german_wine:diamond_refractometer",custom_data={gw:{refractometer:1b,diamond_refractometer:1b,damage_tool:{particle:{id:"minecraft:diamond_chestplate"}}}}] 1
+give @s warped_fungus_on_a_stick[max_damage=1561,item_name="Diamond Refractometer",rarity="common",item_model="german_wine:diamond_refractometer",custom_data={gw:{refractometer:1b,diamond_refractometer:1b,damage_tool:{particle:{id:"minecraft:diamond_chestplate"}}}},repairable={items:"diamond"}] 1
